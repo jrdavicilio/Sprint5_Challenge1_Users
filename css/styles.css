@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f1f0f0;
   margin: 0;
   padding: 20px;
 }
@@ -10,4 +10,49 @@ h1 {
   color: #333;
 }
 
+img {
+  height: 150px;
+}
 
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+ul li {
+  list-style: none;
+  border: 1px solid rgba(170, 170, 170, 0.582);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 500px;
+  background-color: white;
+}
+
+.userImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0px, 0px;
+}
+
+.data {
+  border: 1px solid rgba(170, 170, 170, 0.582);
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+.data p {
+  margin: 10px 0;
+}
+
+li p {
+  margin: 10px 0;
+}
